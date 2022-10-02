@@ -7,7 +7,6 @@ export default function Layout(props) {
     <div className='h-screen flex flex-col' >
       <Navbar />
       <main className='flex-1' >
-        main
         {props.children}
       </main>
       <Footer />
