@@ -1,5 +1,5 @@
 import React from 'react'
-import BlogCard from '../../components/blogs/BlogCard'
+import BlogCard from './../../components/blogs/BlogCard'
 
 export default function index() {
   return (
