@@ -5,12 +5,13 @@ import styles from '../styles/Home.module.css'
 import 'react-loading-skeleton/dist/skeleton.css'
 import { FiPhoneCall } from 'react-icons/fi';
 import { BsPen, BsExclamationLg } from 'react-icons/bs';
-import Feedback from '../components/miscellaneous/feedback'
 import ApplyNow from './apply-now'
 import WhyChooseUs from '../components/home/whyChooseUs'
 import LatestsYoutubeVideos from '../components/home/latestsYoutubeVideos'
 import Testimonials from '../components/home/testimonials'
 import Latestblogs from '../components/home/latestblogs'
+import Feedback from '../components/home/feedback'
+import Process from '../components/home/process'
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         </div>
         <Image width='400' height='400' src='/assets/images/globe-2.gif' />
       </section>
+      <Process />
       <Latestblogs />
       <LatestsYoutubeVideos />
       <WhyChooseUs />

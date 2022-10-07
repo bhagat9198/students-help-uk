@@ -5,6 +5,7 @@ import MyParticles from '../miscellaneous/myParticles';
 import classes from './whyChooseUs.module.css';
 import { FaHandHoldingHeart } from 'react-icons/fa';
 import { FiPhoneCall } from 'react-icons/fi';
+import { SectionHeaderRight } from './sectionHeader';
 
 const _animationData = [{
   icon: <FaHandHoldingHeart />,
@@ -42,14 +43,15 @@ export default function WhyChooseUs() {
       </div>
       <div className='px-20 py-10 z'>
         <div className='flex justify-end ' >
-          <div className='flex justify-end flex-col' >
+          {/* <div className='flex justify-end flex-col' >
             <div className='bg-primary text-secondary rounded-lg px-4 py-2 inline-block mb-3'>
               Why Choose US
             </div>
             <div>
               here it will be shourt message which we can put and
             </div>
-          </div>
+          </div> */}
+          <SectionHeaderRight title="Why Choose US" subheading="here it will be shourt message which we can put and" />
         </div>
         <div className='flex' >
           <div className={`w-1/2 mr-8 flex justify-center items-center`}>

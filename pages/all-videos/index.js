@@ -1,4 +1,5 @@
 import React from 'react'
+import { SectionHeaderLeft } from '../../components/home/sectionHeader'
 import YoutubePlayer from '../../components/miscellaneous/youtubePlayer'
 import Tag from '../../components/videos/tag'
 import VideoCard from '../../components/videos/videoCard'
@@ -7,12 +8,20 @@ export default function index() {
   return (
     <section className='bg-gray-300'>
       <div className='flex'>
-        <div className='w-2/3 flex justify-center flex-wrap'>
-          <div className='m-5' style={{minWidth: 350, width: 350}}><VideoCard /> </div>
-          <div className='m-5' style={{minWidth: 350, width: 350}}><VideoCard /> </div>
-          <div className='m-5' style={{minWidth: 350, width: 350}}><VideoCard /> </div>
-          <div className='m-5' style={{minWidth: 350, width: 350}}><VideoCard /> </div>
-          <div className='m-5' style={{minWidth: 350, width: 350}}><VideoCard /> </div>
+        <div className='w-2/3 '>
+          <div className='flex justify-around my-3 items-center'>
+            <SectionHeaderLeft title="All Videos" subheading="heading of the vidoe can be small/big sndfvoi" />
+            <div>
+              <img src='https://hackathon.ineuron.ai/images/techathon2/online-course.png' />
+            </div>
+          </div>
+          <div className='flex justify-center flex-wrap' >
+          <div className='m-5' style={{minWidth: 250, width: 250}}><VideoCard /> </div>
+          <div className='m-5' style={{minWidth: 250, width: 250}}><VideoCard /> </div>
+          <div className='m-5' style={{minWidth: 250, width: 250}}><VideoCard /> </div>
+          <div className='m-5' style={{minWidth: 250, width: 250}}><VideoCard /> </div>
+          <div className='m-5' style={{minWidth: 250, width: 250}}><VideoCard /> </div>
+          </div>
         </div>
         <div className='w-1/3 p-10 bg-primary-light-5'>
           <div>

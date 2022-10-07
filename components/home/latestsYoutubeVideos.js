@@ -2,19 +2,13 @@ import React from 'react'
 import YoutubePlayer from '../miscellaneous/youtubePlayer'
 import { MdOutlineArrowRight } from 'react-icons/md';
 import Image from 'next/image';
+import { SectionHeaderLeft } from './sectionHeader';
 
 export default function LatestsYoutubeVideos() {
   return (
     <section className='py-10 bg-gray-200' >
       <div className='px-32' >
-        <div>
-          <div className='text-secondary bg-primary rounded-lg p-3 mb-2 inline-block' >
-            Get Latest Videos
-          </div>
-          <div>
-            Here are the latestes video which will gives you better insights in the process
-          </div>
-        </div>
+        <SectionHeaderLeft title="Get Latest Videos" subheading="Here are the latestes video which will gives you better insights in the process" />
         <div className='flex justify-between py-5' >
           
           <div className='w-1/3 mr-10' >
