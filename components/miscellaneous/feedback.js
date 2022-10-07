@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Feedback() {
   return (
-    <section className='flex py-10 px-32 justify-around bg-gray-200'>
+    <section className='flex py-10 px-32 justify-around '>
       <div className='py-5 justify-around '>
         <p className='px-4 py-2 uppercase bg-primary text-secondary rounded-lg inline-block my-5 font-bold'>FEEDBACK</p>
         <p className='text-xl  ' >We are lisening. WE will love get the message from you</p>

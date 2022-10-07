@@ -1,18 +1,22 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import CarouselExpress from '../miscellaneous/CarouselExpress';
+import MyCarousel from '../miscellaneous/myCarousel';
+import { SectionHeaderLeft } from './sectionHeader';
 
 export default function Testimonials() {
   return (
-    <section className='flex px-32' >
-      <div className='w-1/4' >
-        <div className='py-5 justify-around '>
+    <section className='flex px-20 bg-gray-200 py-20' >
+      <div className="w-1/4 bg-[url('/assets/images/reviews.png')] bg-no-repeat bg-center bg-contain bg-bottom" >
+        {/* <div className='py-5 justify-around '>
           <p className='px-4 py-2 uppercase bg-primary text-secondary rounded-lg inline-block my-5 font-bold'>Testimonials</p>
           <p className='text-xl  ' >Few of our happy vistors</p>
-        </div>
+        </div> */}
+        <SectionHeaderLeft title="Testimonials" subheading="Few of our happy vistors" />
       </div>
-      <div className='flex-1 flex items-center '>
-        <div >
+      <div className='w-full' >
+        {/* <div className='hidden' >
           <Carousel autoPlay useKeyboardArrows={true} showThumbs={false} showIndicators={true} showArrows={false} showStatus={false} dynamicHeight={true} labels={{}}>
             <div className='flex justify-evenly' >
               <div className='bg-primary-light-5 p-10 mx-10 rounded-lg overflow-scroll '>
@@ -31,7 +35,9 @@ export default function Testimonials() {
               </div>
             </div>
           </Carousel>
-        </div>
+        </div> */}
+        {/* <MyCarousel data={[1, 2, 3, 4]} /> */}
+        <CarouselExpress />
       </div>
     </section>
   )

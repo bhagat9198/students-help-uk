@@ -25,14 +25,14 @@ export default function ApplyNow() {
               </div>
               <div className='w-96 m-5'>
                 <select className='p-2 rounded-md w-full bg-opacity-75 bg-white'>
-                  <option selected disabled >Marital status</option>
+                  <option disabled >Marital status</option>
                   <option>Married</option>
                   <option>Unmarried</option>
                 </select>
               </div>
               <div className='w-96 m-5'>
                 <select className='p-2 rounded-md w-full bg-opacity-75 bg-white'>
-                  <option selected disabled >Gender</option>
+                  <option disabled >Gender</option>
                   <option>Male</option>
                   <option>Female</option>
                   <option>Prefer Not to tell</option>

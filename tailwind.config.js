@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'map': "url('/assets/images/map.jpg')",
+        'reviews': "url('/assets/images/reviews.png')",
+        'blog': "url('/assets/images/blog.png')",
       },
       colors: {
         // Configure your color palette here

@@ -1,0 +1,50 @@
+.why_choose_us_bg {
+  background: linear-gradient(203deg, #f5410c, #f0f508, #2ef11a, #14e4f0, #270fea, #fe1aff, #ec167c);
+  background-size: 1400% 1400%;
+
+  -webkit-animation: webkit-bg-color 10s ease infinite;
+  -moz-animation: moz-bg-color 10s ease infinite;
+  animation: bg-color 10s ease infinite;
+}
+
+@-webkit-keyframes webkit-bg-color {
+  0% {
+      background-position: 23% 0%
+    }
+  
+    50% {
+      background-position: 78% 100%
+    }
+  
+    100% {
+      background-position: 23% 0%
+    }
+}
+
+@-moz-keyframes moz-bg-color {
+  0% {
+      background-position: 23% 0%
+    }
+  
+    50% {
+      background-position: 78% 100%
+    }
+  
+    100% {
+      background-position: 23% 0%
+    }
+}
+
+@keyframes bg-color {
+0% {
+    background-position: 23% 0%
+  }
+
+  50% {
+    background-position: 78% 100%
+  }
+
+  100% {
+    background-position: 23% 0%
+  }
+}

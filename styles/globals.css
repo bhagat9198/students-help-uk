@@ -69,3 +69,7 @@ a {
     background: black;
   }
 }
+
+#tsparticles {
+  opacity: 0.4;
+}
