@@ -6,7 +6,7 @@ export default function BlogCard() {
     <div className='cursor-pointer rounded-md'>
       <div className='relative' >
         <div>
-          {/* <img src='https://www.meridean.org/public/img/blog/16648622773%20Most%20Student-friendly%20States%20in%20Usa-%20Study%20in%20Usa.png' /> */}
+          <img src='https://www.meridean.org/public/img/blog/16648622773%20Most%20Student-friendly%20States%20in%20Usa-%20Study%20in%20Usa.png' />
         </div>
         <div className='absolute bottom-2 right-2' >
           <div className='flex bg-primary text-secondary px-3 py-2 rounded-md bg-opacity-75 bg-transparent'>
