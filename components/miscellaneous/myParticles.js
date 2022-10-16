@@ -23,7 +23,7 @@ export default function MyParticles() {
       options={{
         background: {
           color: {
-            value: "#0d47a1",
+            value: "#fff",
           },
         },
         fpsLimit: 60,
@@ -54,7 +54,7 @@ export default function MyParticles() {
             value: "#faafaf",
           },
           links: {
-            color: "#ff00ff",
+            color: "#fff",
             distance: 150,
             enable: true,
             opacity: 0.5,

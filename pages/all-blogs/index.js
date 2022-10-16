@@ -4,7 +4,7 @@ import BlogCard from './../../components/blogs/blogCard'
 
 export default function index() {
   return (
-    <section className='bg-gray-300'>
+    <section className='bg-gray-100'>
       <div className='flex justify-around  items-center'>
         <SectionHeaderLeft title="All Blogs" subheading="heading of the vidoe can be small/big sndfvoi" />
         <div>

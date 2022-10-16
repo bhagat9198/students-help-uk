@@ -12,7 +12,7 @@ export default function ApplyNow() {
           <form>
             <div className='flex justify-evenly py-5 flex-wrap'>
               <div className='w-96 m-5'>
-                <input type='text' placeholder='Full Name' className='p-2 rounded-md w-full bg-opacity-75 bg-white' />
+                <input type='text' placeholder='Full Name' className='p-2 rounded-md w-full  bg-white' />
               </div>
               <div className='w-96 m-5'>
                 <input type='text' placeholder='Mobile Number' className='p-2 rounded-md w-full bg-opacity-75 bg-white' />
